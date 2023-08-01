@@ -7,17 +7,17 @@ export default function Project(){
             <div className="row">
                 <div className="col-sm-12 col-lg-6 ">
                     <div class="card" style={{width: "18rem;"}}>
-                        <img src="/image/e-commerce.jpg" class="card-img-top" alt="..."></img>
+                        <img src="/image/CRM.jpg" class="card-img-top" alt="..."></img>
                         <div className="project-details">
-                            <h1 style={{color:"#ff4141"}}>E-Commerce</h1>
+                            <h1 className="name" style={{color:"#41c9ff"}}>CRM Web App</h1>
                             <div>
-                                <button className="project-btn" >Github FE <i class='bx bxl-github' ></i></button>
-                                <button className="project-btn">View Site <i class='bx bx-desktop'></i></button>
-                                <button className="project-btn">Github BE <i class='bx bxl-github' ></i></button>
+                                <a className="project-btn" href="https://github.com/Jayasuriya1/crm_Front_End"  target="_blank">Github FE <i class='bx bxl-github' ></i></a>
+                                <a className="project-btn"  href="https://crm-jayasuriya.netlify.app/" target="_blank">View Site <i class='bx bx-desktop'></i></a>
+                                <a className="project-btn"  href="https://github.com/Jayasuriya1/crm_Back_End" target="_blank">Github BE <i class='bx bxl-github' ></i></a>
                             </div>
-                            <p>This is Fullstack MERN website made it as a Ecommerce.
+                            <p>This is Fullstack MERN website made it as a CRM.
                                 <br></br>
-                                This application is used to buy our products.
+                                This application is used for reviewing customer contacts, leads and Service Requests.
                             </p>
                             <p style={{fontSize:"0.7rem"}}>
                                 <span style={{color:"#41c9ff"}}>TECT USED :</span>
@@ -29,17 +29,17 @@ export default function Project(){
                 </div>
                 <div className="col-sm-12 col-lg-6">
                     <div class="card" style={{width: "18rem;"}}>
-                        <img src="/image/e-commerce.jpg" class="card-img-top" alt="..."></img>
+                        <img src="/image/url-shortener.jpg" class="card-img-top" alt="..."></img>
                         <div className="project-details">
-                            <h1 style={{color:"#ff4141"}}>E-Commerce</h1>
+                            <h1 className="name" style={{color:"#2c49a7"}}>URL Shortener</h1>
                             <div>
-                                <button className="project-btn" >Github FE <i class='bx bxl-github' ></i></button>
-                                <button className="project-btn">View Site <i class='bx bx-desktop'></i></button>
-                                <button className="project-btn">Github BE <i class='bx bxl-github' ></i></button>
+                                <a className="project-btn" href="https://github.com/Jayasuriya1/url-shortener-FE"  target="_blank" >Github FE <i class='bx bxl-github' ></i></a>
+                                <a className="project-btn" href="https://shorturl0.netlify.app/"  target="_blank">View Site <i class='bx bx-desktop'></i></a>
+                                <a className="project-btn" href="https://github.com/Jayasuriya1/URL-Shortner-BE"  target="_blank">Github BE <i class='bx bxl-github' ></i></a>
                             </div>
-                            <p>This is Fullstack MERN website made it as a Ecommerce.
+                            <p>This is Fullstack MERN website made it as a URL Shortener.
                                 <br></br>
-                                This application is used to buy our products.
+                                This application is used to convert long URLs into concise.
                             </p>
                             <p style={{fontSize:"0.7rem"}}>
                                 <span style={{color:"#41c9ff"}}>TECT USED :</span>
@@ -51,21 +51,20 @@ export default function Project(){
                 </div>
                 <div className="col-sm-12 col-lg-6">
                     <div class="card" style={{width: "18rem;"}}>
-                        <img src="/image/e-commerce.jpg" class="card-img-top" alt="..."></img>
+                        <img src="/image/weather.png" class="card-img-top" alt="..."></img>
                         <div className="project-details">
-                            <h1 style={{color:"#ff4141"}}>E-Commerce</h1>
+                            <h1 className="name" style={{color:"#00ffff"}}>Weather App</h1>
                             <div>
-                                <button className="project-btn" onClick={()=>{"window.location='http://www.google.com'"}}>Github FE <i class='bx bxl-github' ></i></button>
-                                <button className="project-btn">View Site <i class='bx bx-desktop'></i></button>
-                                <button className="project-btn">Github BE <i class='bx bxl-github' ></i></button>
+                                <a className="project-btn" href="https://github.com/Jayasuriya1/weather-application"  target="_blank">Github <i class='bx bxl-github' ></i></a>
+                                <a className="project-btn" href="https://weather-app-666.netlify.app/"  target="_blank">View Site <i class='bx bx-desktop'></i></a>
                             </div>
-                            <p>This is Fullstack MERN website made it as a Ecommerce.
+                            <p>This website made it as a Weather App
                                 <br></br>
-                                This application is used to buy our products.
+                                This site is used to know your Current Location Weather.
                             </p>
                             <p style={{fontSize:"0.7rem"}}>
                                 <span style={{color:"#41c9ff"}}>TECT USED :</span>
-                                <span style={{color:"#d18d0d"}}>REACT, NODE, EXPRESS JS, MONGODB</span>
+                                <span style={{color:"#d18d0d"}}>REACT</span>
                             </p>
                             
                         </div>
@@ -73,21 +72,19 @@ export default function Project(){
                 </div>
                 <div className="col-sm-12 col-lg-6">
                     <div class="card" style={{width: "18rem;"}}>
-                        <img src="/image/e-commerce.jpg" class="card-img-top" alt="..."></img>
+                        <img src="/image/post-office.jpg" class="card-img-top" alt="..."></img>
                         <div className="project-details">
-                            <h1 style={{color:"#ff4141"}}>E-Commerce</h1>
+                            <h1 className="name" style={{color:"#ff4141"}}>India Post - Get Details of Your Nearest Post Office</h1>
                             <div>
-                                <button className="project-btn">Github FE <i class='bx bxl-github' ></i></button>
-                                <button className="project-btn">View Site <i class='bx bx-desktop'></i></button>
-                                <button className="project-btn">Github BE <i class='bx bxl-github' ></i></button>
+                                <a className="project-btn" href="https://github.com/Jayasuriya1/Postalpincode"  target="_blank">Github <i class='bx bxl-github' ></i></a>
+                                <a className="project-btn" href="https://rsj-locatepostoffice.netlify.app/"  target="_blank">View Site <i class='bx bx-desktop'></i></a>
                             </div>
-                            <p>This is Fullstack MERN website made it as a Ecommerce.
-                                <br></br>
-                                This application is used to buy our products.
+                            <p>
+                                This application is used search the Post Office Details.
                             </p>
                             <p style={{fontSize:"0.7rem"}}>
                                 <span style={{color:"#41c9ff"}}>TECT USED :</span>
-                                <span style={{color:"#d18d0d"}}>REACT, NODE, EXPRESS JS, MONGODB</span>
+                                <span style={{color:"#d18d0d"}}>HTML, CSS, JAVASCRIPT</span>
                             </p>
                             
                         </div>

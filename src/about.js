@@ -71,7 +71,7 @@ export default function About(){
                         </div>
                     </div>
                     <p>
-                    I Started off my self-learning journey with online tutorials Google, YouTube, Learnmall, SoloLearn, etc and take a step further and Enrolled in the GUVI IIT MADRAS Fullstack developer Nanodegree Program which involved extensive programming and real world projects. Later, I learned MERN Stack From Guvi and built an Website using React JS, Node, Express Js, MongoDB.
+                    I Started off my self-learning journey with online tutorials Google, YouTube, SoloLearn, etc and take a step further and Enrolled in the GUVI IIT MADRAS Fullstack developer Nanodegree Program which involved extensive programming and real world projects. Later, I learned MERN Stack From Guvi and built an Website using React JS, Node, Express Js, MongoDB.
                     </p>
                 </div>
             </div>          

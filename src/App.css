@@ -48,6 +48,7 @@
 
 .blue-text{
   color: #41c9ff;
+  font-size: 1.2em;
 }
 
 .nav-bar{
@@ -64,6 +65,8 @@
   color: #dc143c;
 }
 
+
+
 .btn a{
   display: inline-block;
   padding: 12px 28px;
@@ -77,10 +80,6 @@
   font-weight: 600;
 }
 
-.btn :active {
-  border: none;
-  outline: none;
-}
 .icon{
   background: transparent;
 }
@@ -205,6 +204,21 @@
   border: 1px solid #d18d0d;
   border-radius: 5px;
   margin: 5px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.project-btn :hover{
+  color: #ffffff;
+}
+
+.project-btn :active{
+  color: #ffffff;
+}
+
+.name{
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 .project img{

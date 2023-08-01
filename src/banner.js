@@ -32,17 +32,14 @@ export default function Banner() {
           A self-taught developer with an interest in Web Development.
           </p>
           <div className="social-media">
-          <a href="https://www.linkedin.com/in/jaya-suriya-742bb0168/"  target="_blank"><i class='bx bxl-linkedin'></i></a>
+          <a href="https://www.linkedin.com/in/jayasuriya-sudhakar-742bb0168/"  target="_blank"><i class='bx bxl-linkedin'></i></a>
           <a href="https://github.com/Jayasuriya1"  target="_blank"><i class='bx bxl-github' ></i></a>
-          <a href="https://www.instagram.com/iam.jayasuriya/"  target="_blank"><i class='bx bxl-instagram' ></i></a>
+          <a href="mailto:sudhakar.jayasuriya@gmail.com"  target="_blank"><i class='bx bxl-gmail ' ></i></a>
           </div>
-          <div className="btn">
-          <a >View Resume</a>
+          <div style={{color:"#000000"}} className="btn">
+          <a href="https://drive.google.com/file/d/1rIl9N4voaB_YMi11XF312_VAIPt1Ov2L/view?usp=sharing"  target="_blank">View Resume</a>
           </div>
           
-          {/* <div className="btn">
-          <button >View Resume</button>
-          </div> */}
           
           
         </div>
